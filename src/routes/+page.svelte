@@ -1,7 +1,7 @@
 <script lang="ts">
+	import Avatar from '$lib/Avatar.svelte';
 	import SocialNetwork from '$lib/SocialNetwork.svelte';
 	import TreeButtons from '$lib/TreeButtons.svelte';
-	import Avatar from '$lib/avatar.svelte';
 </script>
 
 <div class="container h-full flex flex-col justify-center items-center mx-auto md:w-[40rem]">
