@@ -5,16 +5,16 @@
 </script>
 
 <div class="container h-full flex flex-col justify-center items-center mx-auto md:w-[40rem]">
-	<div class="mb-8 mt-6 p-10 h-full flex flex-col w-full">
+	<div class="mb-8 p-10 h-full flex flex-col w-full">
 		<div class="justify-center items-center flex flex-col">
 			<!--Imagent-->
 			<div>
 				<Avatar />
 			</div>
 			<!--Nombre-->
-			<div class="mb-10 mt-10 relative">
+			<div class="mb-10 mt-7 relative">
 				<div class="w-full">
-					<h1 class="text-center font-semibold text-4xl font-inherit mb-3">
+					<h1 class="text-center font-semibold text-3xl font-inherit mb-3">
 						Luis Fernando Miranda
 					</h1>
 				</div>

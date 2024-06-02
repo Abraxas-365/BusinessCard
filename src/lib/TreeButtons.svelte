@@ -46,19 +46,19 @@ END:VCARD`;
 <div class="w-full flex flex-col space-y-6 relative">
 	<!-- Converted "Exchange Contacts" to button -->
 	<button
-		class="block card card-hover p-4 py-5 w-full text-center rounded-3xl"
+		class="block card card-hover p-3 py-5 w-full text-center rounded-3xl"
 		on:click={openDrawer}
 	>
 		Exchange Contacts
 	</button>
 	<button
-		class="block card card-hover p-4 py-5 w-full text-center rounded-3xl"
+		class="block card card-hover p-3 py-5 w-full text-center rounded-3xl"
 		on:click={downloadVCard}
 	>
 		Save Contact
 	</button>
 	<button
-		class="block card card-hover p-4 py-5 w-full text-center rounded-3xl"
+		class="block card card-hover p-3 py-5 w-full text-center rounded-3xl"
 		on:click={sendEmail}
 	>
 		Email Me
