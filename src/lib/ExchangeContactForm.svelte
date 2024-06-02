@@ -4,6 +4,12 @@
 
 	onMount(() => {
 		emailjs.init('je0BYHEty2R_0oJv9');
+
+		// Blur the first name input on mount to prevent autofocus
+		const firstNameInput = document.getElementById('first-name') as HTMLInputElement;
+		if (firstNameInput) {
+			firstNameInput.blur();
+		}
 	});
 
 	function validateEmail(email: string): boolean {
