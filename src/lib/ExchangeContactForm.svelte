@@ -3,9 +3,7 @@
 	import emailjs from 'emailjs-com';
 
 	onMount(() => {
-		(function () {
-			emailjs.init('je0BYHEty2R_0oJv9');
-		})();
+		emailjs.init('je0BYHEty2R_0oJv9');
 	});
 
 	function validateEmail(email: string): boolean {
@@ -123,6 +121,6 @@
 	</div>
 	<!-- Submit Button -->
 	<div class="w-full flex flex-col px-6 pt-4">
-		<button class="btn variant-filled p-4 rounded-3xl" type="submit">Send</button>
+		<button class="btn variant-filled p-4 rounded-3xl" type="submit">Contact</button>
 	</div>
 </form>
