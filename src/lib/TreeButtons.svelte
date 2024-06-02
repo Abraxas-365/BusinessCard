@@ -43,7 +43,7 @@ END:VCARD`;
 	}
 </script>
 
-<div class="w-full flex flex-col space-y-6 relative">
+<div class="w-full flex flex-col space-y-4 relative">
 	<!-- Converted "Exchange Contacts" to button -->
 	<button
 		class="block card card-hover p-3 py-5 w-full text-center rounded-3xl"

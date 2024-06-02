@@ -12,7 +12,7 @@
 				<Avatar />
 			</div>
 			<!--Nombre-->
-			<div class="mb-10 mt-7 relative">
+			<div class="mb-6 mt-7 relative">
 				<div class="w-full">
 					<h1 class="text-center font-semibold text-3xl font-inherit mb-3">
 						Luis Fernando Miranda
@@ -26,7 +26,7 @@
 		<div class="w-full">
 			<TreeButtons />
 		</div>
-		<div class="mt-10">
+		<div class="mt-8">
 			<SocialNetwork />
 		</div>
 	</div>
